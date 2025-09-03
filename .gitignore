@@ -1,26 +1,10 @@
-<<<<<<< HEAD
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
-=======
 # Gradle files
 .gradle/
 build/
 
 # Local configuration file (sdk path, etc)
 local.properties
+/local.properties
 
 # Log/OS Files
 *.log
@@ -33,9 +17,15 @@ captures/
 *.apk
 output-metadata.json
 
-# IntelliJ
+# IntelliJ / Android Studio
 *.iml
 .idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
@@ -49,4 +39,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
->>>>>>> 86e3ea8474b3219f9ae94fd2868395e3b2d9742c
+
+# macOS
+.DS_Store
